@@ -1,0 +1,39 @@
+# Build / Maven
+target/
+build/
+*.jar
+*.war
+*.ear
+*.class
+
+# Maven wrapper (opcional)
+.mvn/
+mvnw
+mvnw.cmd
+
+# Environment variables (IMPORTANTE!)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*.swn
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Spring Boot
+*.pid
+
+# Test coverage
+jacoco/
